@@ -23,7 +23,7 @@ export default [
         icono:"pocketbase.svg",
         size:"60",
         color:"",
-        textcolor:""
+        textcolor:"text-slate-300"
     },
     {
         id:"4",
@@ -40,5 +40,13 @@ export default [
         size:"60",
         color:"border-indigo-500",
         textcolor:"text-indigo-500"
+    },
+    {
+        id:"6",
+        nombre:"css",
+        icono:"css.png",
+        size:"55",
+        color:"border-blue-500",
+        textcolor:"text-blue-500"
     }
 ]

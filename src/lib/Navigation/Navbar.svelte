@@ -33,7 +33,7 @@
                 </button>
             </div>
             <div class="flex-1">
-                <a class="btn btn-ghost text-xl text-white" href="/" >CORTECS</a>
+                <a class="btn btn-ghost text-xl text-white" href="/" >PIGUILLEM</a>
             </div>
         </div>
         <slot/>
@@ -41,7 +41,7 @@
     <div class="drawer-side">
       <label for="my-drawer" aria-label="close sidebar" class="drawer-overlay"></label>    
       <ul class="menu bg-gray-900 text-base-content min-h-full w-60 p-2 mt-0">
-        <h1 class="text-lg text-white italic mb-2 mt-3 ml-2">CORTECS</h1>
+        <h1 class="text-lg text-white italic mb-2 mt-3 ml-2">PIGUILLEM</h1>
         <hr class="h-px border-0 bg-gray-700 mb-2">
         <li>
             <a class="text-xl text-white mx-1" href="/" on:click={handleClick}>
