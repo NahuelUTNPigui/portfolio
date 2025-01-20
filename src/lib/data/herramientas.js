@@ -1,0 +1,44 @@
+export default [
+    {
+        id:"1",
+        nombre:"Angular",
+        icono:"angular.png",
+        size:"60",
+        color:"border-rose-500",
+        textcolor:"text-rose-500"
+    },
+    {
+        id:"2",
+        nombre:"Svelte",
+        icono:"svelte2.png",
+        size:"60",
+        color:"border-[#FF5F1F]",
+        textcolor:"text-[#FF5F1F]"
+
+    },
+
+    {
+        id:"3",
+        nombre:"Pocketbase",
+        icono:"pocketbase.svg",
+        size:"60",
+        color:"",
+        textcolor:""
+    },
+    {
+        id:"4",
+        nombre:"Tailwind",
+        icono:"tailwind.svg",
+        size:"60",
+        color:"border-cyan-500",
+        textcolor:"text-cyan-500"
+    },
+    {
+        id:"5",
+        nombre:"Boostrap",
+        icono:"bootstrap2.png",
+        size:"60",
+        color:"border-indigo-500",
+        textcolor:"text-indigo-500"
+    }
+]
