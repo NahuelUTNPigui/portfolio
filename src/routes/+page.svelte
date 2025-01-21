@@ -6,7 +6,7 @@
 </script>
 <div class="p-10 space-y-1 mainbody bg-gray-900">
 	<div class="p-10 flex flex-col items-center space-y-1">
-		<img alt="The project logo" src={Logo2} class="mb-0"/>
+		<img alt="The project logo" src="/yo.jpg" class="mb-0 rounded-full h-40 w-40"/>
 		<h1
 			class={`mt-0 mb-0 font-black tracking-[4px] text-center text-[3.5em] lg:text-[4em] text-slate-200`}
 			style="background: linear-gradient(var(--main-text), var(--accent-text-hover)); -webkit-background-clip: text; background-clip: text;"
