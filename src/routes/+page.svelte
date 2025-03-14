@@ -18,11 +18,17 @@
 		<div
 			class="col self-center flex-1 md:flex-row md:slef-stretch justify-center lg:justify-between items-center mt-0 p-y-0px p-x-10px mb-1"
 		>
-			<p class="  text-center md:text-left text-[1.2em] text-slate-300">
+			<p class="my-1  text-center md:text-left text-[1.2em] text-slate-300">
 				Ingeniero en sistemas especializado en el desarrollo de aplicaciones web desde el diseño de las vistas hasta el despliegue del sistema.
+			</p>
+			<p class="my-1  text-center md:text-left text-[1.2em] text-slate-300">
+				Enfoque principal en el diseño de sistemas intuitivos pensados para usuarios con poca familiaridad con el software
+			</p>
+			<p class="my-1  text-center md:text-left text-[1.2em] text-slate-300">
+				Se tiene conocimiento de herramientas necesarias para la infraestructura de los sistemas.
                 
 			</p>
-            <p class=" text-center md:text-left text-[1.2em] text-slate-300">
+            <p class="my-1 text-center md:text-left text-[1.2em] text-slate-300">
 				
                 Con entusiasmo de aplicar lo que aprendo todos los dias.
 			</p>
@@ -42,7 +48,7 @@
 		</p>
 		<br>
 		
-		<div class="flex justify-center gap-2 lg:gap-10">
+		<div class="flex justify-center gap-2 lg:gap-10 ">
 			{#each herramientas as h}
 				<Tooltip title={h.nombre} color={h.color} textcolor={h.textcolor}>
 					<div class={`rounded-lg h-30 w-30 border-2 ${h.color}`} >

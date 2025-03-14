@@ -31,6 +31,11 @@
                             </svg>
                               
                         </a>
+
+                        {#if p.link != ""}
+                        <br>
+                            <a href={p.link} class={`mt-3 ${p.textcolor} hover:text-blue-600 inline-flex items-center `}>Link del proyecto</a>
+                        {/if}
                     </div>
                     <div class="grid col-span-2 gap-2 mt-8">
                         <img class="w-full rounded-lg" src={p.mainimage.src} alt={p.alt}>

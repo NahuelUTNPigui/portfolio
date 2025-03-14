@@ -43,10 +43,19 @@ export default [
     },
     {
         id:"6",
-        nombre:"css",
+        nombre:"CSS",
         icono:"css.png",
         size:"55",
         color:"border-blue-500",
         textcolor:"text-blue-500"
+    },
+    {
+        id:"7",
+        nombre:"Linux",
+        icono:"Linux.png",
+        size:"55",
+        color:"border-black",
+        textcolor:"text-white"
     }
+
 ]

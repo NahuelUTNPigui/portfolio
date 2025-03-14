@@ -14,7 +14,7 @@ export default [
             {text:"La actividad principal del negocio se gestiona con el módulo de remitos con el que se pueden registrar viajes con sus clientes, proveedores, fecha y monto como también mantener un historial de las etapas que recorrió. "},
             {text:"Tambien está módulo de facturación, diseñado para mantener actualizados los viajes pendientes por cobrar y los ya cobrados. Para complementar la gestión, se incluye un módulo de reportes para la generación de informes según las inquietudes que surgan."},
             {text:"Por último, toda la información puede ser exportada a Excel."}],
-        mainimage:{src:"/images/preventas1bis.png",descripcion:"nose"},
+        mainimage:{src:"/images/preventas1bis.png",descripcion:"main image"},
         images:[
             {src:"/images/preventas1bis.png",titulo:"HOME",descripcion:"En el inicio se pueden ver los últimos remitos cargados"},
             {src:"/images/preventas2bisnocuil.png",titulo:"CLIENTES",descripcion:"Se registran los clientes para llevar un control de los remitos asociados"},
@@ -25,7 +25,8 @@ export default [
         color:"bg-blue-950",
         textcolor:"text-white",
         texttitle:"text-white",
-        hovercolor:"text-blue-600"
+        hovercolor:"text-blue-600",
+        link:""
 
     },
     {
@@ -45,17 +46,53 @@ export default [
         ],
         src:"/images/absapplogo2.png",
         alt:"Abrazadoras",
-        mainimage:{src:"/images/absapp2bisnonames.png",descripcion:"nose"},
+        mainimage:{src:"/images/absapp2bisnonames.png",descripcion:"main image"},
         images:[
             {src:"/images/absapp1bis.png",titulo:"LOGIN",descripcion:"Pagina de inicio para ingresar con usuario y contraseña. Permite utilizar colores oscuros"},
-            {src:"/images/absapp3bis.png",titulo:"BEBES",descripcion:"Se registran los bebés con sus datos básicos. La aplicacion es responsive para diferentes pantallas ya que puede usar usada desde el celu"},
+            {src:"/images/absbebe.png",titulo:"BEBE",descripcion:"Se registran los bebés con sus datos básicos"},
+            {src:"/images/abshistorial.png",titulo:"ABRAZOS",descripcion:"Se mantiene un listado de los bebés cuidados por el voluntariado con los estados que puede tener"},
             {src:"/images/absapp2bisnonames.png",titulo:"VOLUNTARIAS",descripcion:"Módulo de voluntarias encargadas de abrazar los bebés, cada una tiene un usuario asociado"},
             {src:"/images/absapp4bisnonames.png",titulo:"ABRAZOS",descripcion:"Se llevar un historial de todos los abrazos con lo que se pueden hacer reportes y exportar a excel"}
         ],
         color:"bg-green-500",
         textcolor:"text-black",
         texttitle:"text-black",
-        hovercolor:"text-blue-600"
+        hovercolor:"text-blue-600",
+        link:""
+    }
+    ,
+    {
+        id:"3",
+        iconcolor:"border-green-500",
+        texticoncolor:"text-green-500",
+        nombre:"Creciente fertil",
+        descripcion:"Aplicación online para la gestión de establecimientos ganaderos",
+        longdescripcion:"Aplicación que permite el control del ganado de uno o varios establecimientos. Se mantiene un historial de los animales desde su nacimiento hasta que son transferidos o son dados de  baja. Se mantiene un control de cada evento que surge en los establecimientos. Se permite tener varios colaboradores por establecimiento. Finalmente se pueden hacer reportes de las actividades y animales del establecimiento",
+        parrafosdesc:[
+            {text:"Aplicación que da soporte a las actividades de 1 o varios establecimientos junto con sus animales e historiales."},
+            {text:"La función principal de la aplicación es que los dueños de establecimientos tengan una herramienta sencilla para hacer el seguimiento de sus animales."},
+            {text:"Se cuenta con un módulo de animales para conocer todos los eventos que recibió como tratamientos, inseminaciones , tactos, etc."},
+            {text:"Existe un módulo de establecimientos que permite gestionar colaboradores junto con sus permitos, transferir animales entre sí y ver reportes de los datos."}
+        ],
+        src:"/images/fertillogo.jpg",
+        alt:"Abrazadoras",
+        mainimage:{src:"/images/fert1l.png",descripcion:"main image"},
+        images:[
+            {src:"/images/fert5l.png",titulo:"LOGIN",descripcion:"Pagina para ingresar con usuario y contraseña. Permite utilizar colores oscuros"},
+            {src:"/images/fert1l.png",titulo:"INICIO",descripcion:"Pagina principal donde se ve un resumen del establecimiento y permite acciones básicas"},
+            {src:"/images/fert8l.png",titulo:"ESTABLECIMIENTO",descripcion:"Datos principales del establecimientos"},
+            {src:"/images/fert7l.png",titulo:"COLABORADORES",descripcion:"Sección de colaboradores para agregar nuevos o asociar usuarios existentes"},
+            {src:"/images/fert2l.png",titulo:"ANIMAL",descripcion:"Pagina donde se ven los datos necesarios de un animal al que luego se le asocian eventos"},
+            {src:"/images/fert3l.png",titulo:"TRATAMIENTOS",descripcion:"Página de nuevos tratamientos que permite seleccionar varios animales y asignarles algun tratamiento, en varios eventos se permite la creación múltiple"},
+            {src:"/images/fert4l.png",titulo:"REPORTES",descripcion:"Ejemplo de algunos de los reportes que se puede hacer como el peso por categoria de animal "},
+            {src:"/images/fert6l.png",titulo:"MENU",descripcion:"Se tiene acceso a las funcionalidades del sistema"}
 
+
+        ],
+        color:"bg-amber-500",
+        textcolor:"text-black",
+        texttitle:"text-black",
+        hovercolor:"text-blue-600",
+        link:"https://fertil.netlify.app/login/"
     }
 ]
